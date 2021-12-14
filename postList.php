@@ -1,3 +1,7 @@
+<?php
+include "data.php";
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -15,6 +19,17 @@
     ?>
 
 <main class="main">
+<?php
+if (isset($data)):
+foreach ($data as $dat):
+?>
+<div class="post">
+    <?php echo $dat ?>
+</div>
+<?php
+endforeach;
+endif;
+?>
 
 </main>
 

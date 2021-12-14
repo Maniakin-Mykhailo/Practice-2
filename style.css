@@ -33,6 +33,7 @@ form {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 
 }
 
@@ -55,4 +56,9 @@ button {
     text-decoration: none;
     font-size: 30px;
     padding: 5px;
+}
+.post{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
 }

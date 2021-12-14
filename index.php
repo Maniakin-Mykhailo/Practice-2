@@ -10,23 +10,19 @@
 </head>
 <body>
 <div class="page">
-<header class="header">
-    <div class="nav">
-        <a class="navLink" href="index.php">Главная</a>
-        <a class="navLink" href="registration.php">Регистрация</a>
-        <a class="navLink" href="login.php">Авторизация</a>
-        <a class="navLink" href="postList.php">Список постов</a>
-        <a class="navLink" href="profile.php">Профиль</a>
-    </div>
-</header>
 
-<main class="main">
+<?php
+require "header.php";
+?>
 
-</main>
 
-<footer class="footer">
-    I'm footer!
-</footer>
+    <main class="main">
+
+    </main>
+
+<?php
+require "footer.php";
+?>
 
 </div>
 </body>

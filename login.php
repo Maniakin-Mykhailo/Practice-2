@@ -10,15 +10,9 @@
 </head>
 <body>
 <div class="page">
-<header class="header">
-    <div class="nav">
-        <a class="navLink" href="index.php">Главная</a>
-        <a class="navLink" href="registration.php">Регистрация</a>
-        <a class="navLink" href="login.php">Авторизация</a>
-        <a class="navLink" href="postList.php">Список постов</a>
-        <a class="navLink" href="profile.php">Профиль</a>
-    </div>
-</header>
+    <?php
+    require "header.php";
+    ?>
 
 <main class="main">
     <form action="" method="post">
@@ -30,9 +24,9 @@
     </form>
 </main>
 
-<footer class="footer">
-    <h1>Im'm footer!</h1>
-</footer>
+    <?php
+    require "footer.php";
+    ?>
 
 </div>
 </body>

@@ -1,7 +1,3 @@
-<?php
-include "data.php";
-?>
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -9,32 +5,22 @@ include "data.php";
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Posts</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Main</title>
+    <link rel="stylesheet" href="../../../public/css/style.css">
 </head>
 <body>
 <div class="page">
     <?php
-    require "header.php";
+    require "layoutElements/header.php";
     ?>
 
-<main class="main">
-<?php
-if (isset($data)):
-foreach ($data as $dat):
-?>
-<div class="post">
-    <?php echo $dat ?>
-</div>
-<?php
-endforeach;
-endif;
-?>
+    <main class="main">
+<?= $content ?>
 
-</main>
+    </main>
 
     <?php
-    require "footer.php";
+    require "layoutElements/footer.php";
     ?>
 
 </div>

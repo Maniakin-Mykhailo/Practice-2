@@ -8,7 +8,7 @@ class PostController extends AppController
 {
     public function indexAction(){
         $model = new Post;
-        $posts = $model->data;
+        $posts = $model->findAll();
         $this->set(compact( 'posts'));
 
     }

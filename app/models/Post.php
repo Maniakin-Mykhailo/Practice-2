@@ -2,15 +2,10 @@
 
 namespace app\models;
 
-class Post
+use vendor\core\base\Model;
+
+class Post extends Model
 {
-    public $data = [
-        "post1" => "post1 ",
-        "post2" => "post2",
-        "post3" => "post3",
-        "post4" => "post4",
-        "post5" => "post5",
-        "post6" => "post6",
-    ];
+public $table = 'posts';
 
 }

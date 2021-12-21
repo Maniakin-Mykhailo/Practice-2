@@ -15,7 +15,7 @@
     ?>
 
     <main class="main">
-<?= $content ?>
+        <?= $content ?>
 
     </main>
 

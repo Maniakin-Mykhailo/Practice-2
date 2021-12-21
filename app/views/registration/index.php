@@ -1,4 +1,4 @@
-<form action="" method="post" enctype="multipart/form-data">
+<form action="registration/signup" method="post" enctype="multipart/form-data">
     <label>Имя</label>
     <input type="text" name="name" placeholder="Введите свое имя">
     <label>Логин</label>

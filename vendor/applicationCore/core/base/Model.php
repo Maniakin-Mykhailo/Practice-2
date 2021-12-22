@@ -35,7 +35,6 @@ abstract class Model implements iModel {
     }
 
     public function validate($data){
-
         $v = new Validator($data);
         $v->rules($this->rules);
         if($v->validate()){

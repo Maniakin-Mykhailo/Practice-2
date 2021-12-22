@@ -18,8 +18,8 @@ require __DIR__ . '/../vendor/autoload.php';
 
 new \applicationCore\core\App;
 
-// defaults routs
 
+// defaults routs
 Router::add('^$', ['controller' => 'Main', 'action' => 'index']);
 Router::add('^(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$');
 
